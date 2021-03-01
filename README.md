@@ -13,6 +13,7 @@
         }
 ```
 2、方式二
+```
         let pickerView = ICustomDataPickerView()
         pickerView.dataSource = ["fdsa", "888", "fsaf"]
         pickerView.resultBlock = { text in
@@ -20,3 +21,4 @@
             self.choseTextLabel.text = text
         }
         pickerView.show()
+```
