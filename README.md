@@ -6,10 +6,12 @@
 
 # 使用
 1、方式一
+```
         ICustomDataPickerView.showPickerView(title: "哈哈", data: ["fdsa", "888", "fsaf"]) { (text) in
             print(text)
             self.choseTextLabel.text = text
         }
+```
 2、方式二
         let pickerView = ICustomDataPickerView()
         pickerView.dataSource = ["fdsa", "888", "fsaf"]
