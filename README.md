@@ -1,5 +1,6 @@
 # IPickerView
 单行自定义数据源选择器
 
-# 效果如下![simulator_screenshot_B0854CB3-959C-4711-A931-7102AB77F43A](https://user-images.githubusercontent.com/70566070/109477549-1ed5e100-7ab3-11eb-995b-c101ecf33c26.png)
+# 效果如下
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-03-01 at 17 25 47](https://user-images.githubusercontent.com/70566070/109477893-8a1fb300-7ab3-11eb-94e6-7e71b8c68547.png)
 
