@@ -9,6 +9,7 @@
 # 使用方式
 
 一、单行自定义数据源选择器使用
+
 1、方式一
 ```
         ICustomDataPickerView.showPickerView(title: "哈哈", data: ["fdsa", "888", "fsaf"]) { (text) in
@@ -28,6 +29,7 @@
 ```
 
 二、城市选择器使用
+
 1、方式一
 ```
         let pickerView = ICityPickerView()
