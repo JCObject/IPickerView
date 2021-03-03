@@ -16,6 +16,8 @@
 		906EDAD225E89B5600C5CFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906EDAD025E89B5600C5CFA4 /* Main.storyboard */; };
 		906EDAD425E89B5800C5CFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906EDAD325E89B5800C5CFA4 /* Assets.xcassets */; };
 		906EDAD725E89B5800C5CFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906EDAD525E89B5800C5CFA4 /* LaunchScreen.storyboard */; };
+		90DF0DCD25EDDDBA0069FF67 /* ICityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF0DCC25EDDDBA0069FF67 /* ICityPickerView.swift */; };
+		90DF0DD225EE06550069FF67 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 90DF0DD125EE06550069FF67 /* city.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		906EDAD325E89B5800C5CFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		906EDAD625E89B5800C5CFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		906EDAD825E89B5800C5CFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DF0DCC25EDDDBA0069FF67 /* ICityPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICityPickerView.swift; sourceTree = "<group>"; };
+		90DF0DD125EE06550069FF67 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +51,10 @@
 			isa = PBXGroup;
 			children = (
 				9061375525EDC8A00080E256 /* IBaseView.swift */,
-				9061375625EDC8A00080E256 /* ICustomDataPickerView.swift */,
 				9061375725EDC8A00080E256 /* IPickerViewMacro.swift */,
+				9061375625EDC8A00080E256 /* ICustomDataPickerView.swift */,
+				90DF0DCC25EDDDBA0069FF67 /* ICityPickerView.swift */,
+				90DF0DD125EE06550069FF67 /* city.json */,
 			);
 			path = IPickerView;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DF0DD225EE06550069FF67 /* city.json in Resources */,
 				906EDAD725E89B5800C5CFA4 /* LaunchScreen.storyboard in Resources */,
 				906EDAD425E89B5800C5CFA4 /* Assets.xcassets in Resources */,
 				906EDAD225E89B5600C5CFA4 /* Main.storyboard in Resources */,
@@ -157,6 +164,7 @@
 				9061375925EDC8A00080E256 /* ICustomDataPickerView.swift in Sources */,
 				906EDACF25E89B5500C5CFA4 /* ViewController.swift in Sources */,
 				9061375825EDC8A00080E256 /* IBaseView.swift in Sources */,
+				90DF0DCD25EDDDBA0069FF67 /* ICityPickerView.swift in Sources */,
 				9061375A25EDC8A00080E256 /* IPickerViewMacro.swift in Sources */,
 				906EDACB25E89B5500C5CFA4 /* AppDelegate.swift in Sources */,
 				906EDACD25E89B5500C5CFA4 /* SceneDelegate.swift in Sources */,
